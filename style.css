@@ -1,0 +1,212 @@
+/* CSS BY NAOMI CLARK */
+
+/* IMPORTED FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
+
+/* CSS REST */
+
+h1,
+h2 {
+    font-family: "Kavoon"
+}
+
+* {
+    font-family: "Inter";
+}
+
+h1 {
+    font-size: 3em;
+}
+
+nav h2 {
+    font-size: 1.5em;
+}
+
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+h4 {
+    font-size: 1.15em;
+}
+
+/* ROOT VARIABLES */
+:root {
+    --teal: #4CA7C0;
+    --purple: #484FB7;
+    --lavender: #6B8FE7;
+    --yellow: #E9BB57;
+    --pink: #D9526F;
+    --dark-gray: #1E1E1E;
+    --white: #ffffff;
+}
+
+/* GLOBAL STYLES */
+
+* {
+    margin: 0;
+}
+
+body,
+header,
+section:nth-of-type(odd),
+footer {
+    background-color: var(--purple);
+}
+
+section:nth-of-type(even) {
+    background-color: var(--pink);
+    display: table;
+}
+
+h1,
+h2 {
+    color: var(--white);
+}
+
+
+header {
+    text-align: center;
+    color: var(--white);
+    padding: 40px 20px;
+}
+
+nav {
+    background-color: var(--yellow);
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px;
+}
+
+
+nav h3 {
+    font-style: italic;
+    color: var(--dark-gray);
+}
+
+nav p {
+    background-color: var(--white);
+    padding: 15px 0;
+    margin: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: blue;
+}
+
+section {
+    padding: 20px;
+}
+
+section h3 {
+    color: var(--yellow)
+}
+
+section div {
+    background-color: var(--white);
+    border-radius: 10px;
+    margin: 15px;
+    padding: 30px 15px;
+}
+
+section div h4 {
+    color: var(--purple);
+    padding: 5px 0;
+}
+
+section div p {
+    color: var(--dark-gray);
+}
+
+section ul {
+    padding: 0;
+}
+
+section li {
+    display: inline-table;
+    list-style-type: none;
+    padding: 30px 20px;
+    width: 150px;
+    height: 50px;
+    text-wrap: wrap;
+    border-radius: 20px;
+    text-align: center;
+    margin: 10px 5px;
+    font-weight: bolder;
+    color: var(--dark-gray);
+}
+
+section li:first-child {
+    background-color: var(--teal);
+}
+
+section li:nth-child(2) {
+    background-color: var(--lavender);
+}
+
+section li:nth-child(3) {
+    background-color: var(--yellow);
+}
+
+section li:last-child {
+    background-color: var(--white);
+}
+
+section table {
+    margin: 10px auto;
+    background-color: var(--yellow);
+}
+
+section th,
+section td {
+    padding: 10px;
+    color: var(--dark-gray);
+}
+
+section th {
+    text-transform: uppercase;
+}
+
+section td {
+    background-color: var(--white);
+}
+
+section:last-of-type {
+    color: var(--white);
+}
+
+section button {
+    text-transform: uppercase;
+    border: none;
+    display: block;
+    margin: 10px auto;
+    width: 90%;
+    padding: 25px 0px;
+    border-radius: 15px;
+    font-weight: 800;
+    background-color: var(--white);
+    box-shadow: 5px 5px 5px;
+    color: var(--dark-gray);
+}
+
+footer {
+    display: table;
+    margin: 0 auto;
+}
+
+footer p,
+footer a {
+    color: var(--white);
+}
+
+footer p {
+    display: table-cell;
+    padding: 20px;
+}
